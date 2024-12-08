@@ -25,4 +25,4 @@ template DatasetPoseidonHash(n) {
 }  
 
 // Instantiate the main component with n = 16, specifying public signals  
-component main { public [expectedHash] } = DatasetPoseidonHash(16);  
+component main { public [expectedHash] } = DatasetPoseidonHash(5);  
